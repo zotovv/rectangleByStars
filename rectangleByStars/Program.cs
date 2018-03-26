@@ -10,6 +10,20 @@ namespace rectangleByStars
     {
         static void Main(string[] args)
         {
+            int width = 30;
+            int height = 6;
+
+            for (int i = 0; i < height; i++)
+            {
+                for (int j = 0; j < width; j++)
+                {
+                    Console.Write("*");
+                }
+
+                Console.WriteLine();
+            }
+
+            Console.ReadKey();
         }
     }
 }
