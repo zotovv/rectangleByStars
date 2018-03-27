@@ -10,8 +10,11 @@ namespace rectangleByStars
     {
         static void Main(string[] args)
         {
-            int width = 30;
-            int height = 6;
+            Console.WriteLine("Введите число (ширина прямоугольника): ");
+            int width = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Введите число (высота прямоугольника): ");
+            int height = Convert.ToInt32(Console.ReadLine());
 
             for (int i = 0; i < height; i++)
             {
